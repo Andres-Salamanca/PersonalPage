@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Body1,.Body2,.Body3,.Body4{
+    flex: 1;
+    display: flex;
+}
+
+.Body1 , .Header , .Footer{
+
+    background-color: #1F2937;
+
+}
+.Body3{
+    padding: 32px;
+    background-color: #E5E7EB;
+}
+.Header{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+}
+.Footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
